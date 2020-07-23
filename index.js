@@ -7,13 +7,10 @@ const app = express();
 const PORT = 5000;
 
 app.use(bodyParser.json());
-
 app.use("/users", usersRoutes);
-
 app.get("/", (req, res) => {
   // this console log is only viewed on VS Code terminal
   console.log("TEST");
-
   res.send("Hello from homepage");
 });
 
