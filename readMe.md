@@ -34,5 +34,6 @@ The main difference between the PUT and PATCH method is that the PUT method uses
 restructure the folder
 create controllers folder
 place to put the callback parameters
+All the logic and the functions in the controllers folder
 
 - create file with the same name users.js
